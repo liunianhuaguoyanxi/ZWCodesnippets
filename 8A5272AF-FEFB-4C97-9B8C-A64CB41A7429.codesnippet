@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>addMBProgressHUDText</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+- (void)addMBProgressHUDView {
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:[self lastWindow]  animated:NO];
+    
+    // Set the custom view mode to show any view.
+    hud.mode = MBProgressHUDModeCustomView;
+    // Set an image view with a checkmark.
+    //    UIImage *image = [[UIImage imageNamed:@"buble-chat-white"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    //    hud.customView = [[UIImageView alloc] initWithImage:image];
+    // Looks a bit nicer if we make it square.
+    //    hud.square = YES;
+    // Optional label text.
+    hud.bezelView.backgroundColor=[UIColor whiteColor];
+    hud.alpha=0.7;
+    hud.label.numberOfLines=0;
+    hud.label.text = NSLocalizedString(@"reset the daily chanlleng just of test ", @"HUD done title");
+    
+    
+    hud.label.textColor=[UIColor blackColor];
+    hud.label.font=[UIFont fontWithName: kGlobalFontFamilyName size:15];
+    hud.minSize = CGSizeMake(220, 100);
+    hud.bezelView.layer.cornerRadius=10;
+    //    hud.bezelView.c
+    //        hud.removeFromSuperViewOnHide = YES;
+    [hud hideAnimated:YES afterDelay:3.f];
+    [[MessageManager sharedInstance].publicHub hideAnimated:YES];
+    
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8A5272AF-FEFB-4C97-9B8C-A64CB41A7429</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>addMBProgressHUDText</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

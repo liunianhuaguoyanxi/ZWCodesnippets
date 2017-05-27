@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>shakeAnimationForView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)shakeAnimationForView:(UIView *)view
+{
+    CALayer *viewLayer = view.layer;
+    CGPoint position = viewLayer.position;
+    CGPoint left = CGPointMake(position.x - 10, position.y);
+    CGPoint right = CGPointMake(position.x + 10, position.y);
+    
+    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"position"];
+    [animation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
+    [animation setFromValue:[NSValue valueWithCGPoint:left]];
+    [animation setToValue:[NSValue valueWithCGPoint:right]];
+    [animation setAutoreverses:YES]; // 平滑结束
+    [animation setDuration:0.08];
+    [animation setRepeatCount:3];
+    
+    [viewLayer addAnimation:animation forKey:nil];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9C2095D1-BD3E-436B-A436-B4783E2B6182</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>抖动动画</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>抖动动画</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

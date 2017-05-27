@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>getlastWindow</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIWindow *)lastWindow
+
+{
+    
+    NSArray *windows = [UIApplication sharedApplication].windows;
+    
+    for(UIWindow *window in [windows reverseObjectEnumerator]) {
+        
+        if ([window isKindOfClass:[UIWindow class]] &amp;&amp;CGRectEqualToRect(window.bounds, [UIScreen mainScreen].bounds)&amp;&amp; window.hidden == NO &amp;&amp; window.alpha &gt; 0)
+        {
+            //                NSLog(@"%@ window",window);
+            if([window isKindOfClass:NSClassFromString(@"UIRemoteKeyboardWindow")])
+            {
+                
+            }else
+            {
+                return window;
+            }
+            
+            
+        }
+    }
+    
+    return [UIApplication sharedApplication].keyWindow;
+    
+    
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0F893726-8E64-4FF8-AB1A-093230646C3E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>getLastWindow</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

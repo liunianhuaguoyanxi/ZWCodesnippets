@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>comeBackLabelTextAutoRectWithStr</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//动态计算textview宽高
+-(CGRect)comeBackLabelTextAutoRectWithStr:(CMInputView  *)inputView
+{
+    NSMutableParagraphStyle *paragraphstyle1=[[NSMutableParagraphStyle alloc]init];
+    paragraphstyle1.lineBreakMode=NSLineBreakByCharWrapping;
+    //设置label的字体和段落风格
+    paragraphstyle1.lineSpacing=10;
+    NSDictionary *dic1=@{NSFontAttributeName:inputView.font,NSParagraphStyleAttributeName:paragraphstyle1.copy};
+    //计算label的真正大小,其中宽度和高度是由段落字数的多少来确定的，返回实际label的大小
+    CGRect rect1=[inputView.text boundingRectWithSize:CGSizeMake( kScreenWidth-40, 200) options:NSStringDrawingUsesLineFragmentOrigin attributes:dic1 context:nil];
+    return rect1;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A255F712-6C6A-46DE-936F-8EFA7AE6D449</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>comeBackLabelTextAutoRectWithStr</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>动态计算textview高度</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
