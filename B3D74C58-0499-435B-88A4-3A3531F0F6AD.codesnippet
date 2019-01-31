@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sfgx</string>
+	<string>fgxd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -16,8 +16,10 @@
 	<string>B3D74C58-0499-435B-88A4-3A3531F0F6AD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>分割线 短</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>短分割线</string>
+	<string>分割线 短</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

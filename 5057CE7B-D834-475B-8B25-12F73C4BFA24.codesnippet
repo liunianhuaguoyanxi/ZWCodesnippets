@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>LibraryPath</string>
+	<string>myLibraryPath</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -14,8 +14,10 @@
 	<string>5057CE7B-D834-475B-8B25-12F73C4BFA24</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>沙盒 NSLibraryDirectory</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Library Directory Path</string>
+	<string>沙盒 NSLibraryDirectory</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

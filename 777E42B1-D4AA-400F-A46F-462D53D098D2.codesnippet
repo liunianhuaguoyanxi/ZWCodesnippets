@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>NScoding</string>
+	<string>myNScoding</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -29,6 +29,8 @@
 	<string>777E42B1-D4AA-400F-A46F-462D53D098D2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>NSCoding Protocol Methods</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>NSCoding Protocol Methods</string>
 	<key>IDECodeSnippetUserSnippet</key>

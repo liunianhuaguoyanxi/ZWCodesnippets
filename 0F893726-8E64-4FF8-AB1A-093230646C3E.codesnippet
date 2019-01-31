@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>getlastWindow</string>
+	<string>mylastWindow</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -41,8 +41,10 @@
 	<string>0F893726-8E64-4FF8-AB1A-093230646C3E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Window 顶层</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>getLastWindow</string>
+	<string>Window 顶层</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

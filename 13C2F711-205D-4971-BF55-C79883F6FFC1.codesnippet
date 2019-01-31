@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>myBtnAdd</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton * &lt;#name#&gt; = [UIButton buttonWithType:0];
+&lt;#name#&gt;.frame = CGRectMake(0, 10, 69, 24);
+&lt;#name#&gt;.tintColor = [UIColor whiteColor];
+&lt;#name#&gt;.backgroundColor = RGBCOLOR(44, 197, 180);
+[&lt;#name#&gt; setTitle:&lt;#name#&gt; forState:UIControlStateNormal];
+[&lt;#name#&gt; addTarget:self action:@selector(&lt;#name#&gt;) forControlEvents:UIControlEventTouchUpInside];
+&lt;#name#&gt;.titleLabel.font = [UIFont systemFontOfSize:&lt;#name#&gt;];
+&lt;#name#&gt;.layer.cornerRadius = &lt;#name#&gt;;
+&lt;#name#&gt;.layer.masksToBounds =YES;
+&lt;#name#&gt;.hidden = YES;
+[&lt;#name#&gt; addSubview:&lt;#name#&gt;];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>13C2F711-205D-4971-BF55-C79883F6FFC1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIButton add</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIButton add</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

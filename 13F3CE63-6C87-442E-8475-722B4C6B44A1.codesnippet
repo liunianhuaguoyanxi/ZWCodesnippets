@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mjReplace</string>
+	<string>mycellWithTableView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -20,16 +20,16 @@
     return cell;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1F01DF1A-C8C4-4AA0-B9B8-42868E1AF634</string>
+	<string>13F3CE63-6C87-442E-8475-722B4C6B44A1</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mjReplace</string>
+	<string>Cell cellWithTableView</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mjReplace</string>
+	<string>Cell cellWithTableView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

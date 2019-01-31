@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fgxname</string>
+	<string>fgxbeginEnd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    /***********************************cff(begin)*********************************/
-    /***********************************cff(end)***********************************/</string>
+	<string>    /***********************************(begin)*********************************/
+    /***********************************(end)***********************************/</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>304C878B-ECFF-4947-B5D4-68B921648B7C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>我的代码插入标记</string>
+	<string>分割线 我的代码插入标记</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>我的代码插入标记</string>
+	<string>分割线 我的代码插入标记</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

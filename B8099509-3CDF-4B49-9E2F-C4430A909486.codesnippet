@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>DocumentsPath</string>
+	<string>myDocumentsPath</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -14,8 +14,10 @@
 	<string>B8099509-3CDF-4B49-9E2F-C4430A909486</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>沙盒 NSDocumentDirectory</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Documents Directory Path</string>
+	<string>沙盒 NSDocumentDirectory</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

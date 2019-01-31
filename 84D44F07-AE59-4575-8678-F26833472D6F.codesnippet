@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debugDescription</string>
+	<string>mystrdebugDescription</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -17,8 +17,10 @@
 	<string>84D44F07-AE59-4575-8678-F26833472D6F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>NSString debugDescription</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>debugDescription Method</string>
+	<string>NSString debugDescription</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
