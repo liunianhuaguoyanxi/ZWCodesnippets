@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MailComposeViewControlle</string>
+	<string>myMail</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -42,8 +42,10 @@
 	<string>ED9715B9-9AA3-49B5-AB03-4017DBE8A93C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>mail 设置</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MFMailComposeViewController Initialization &amp; Delegate</string>
+	<string>mail 设置</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
